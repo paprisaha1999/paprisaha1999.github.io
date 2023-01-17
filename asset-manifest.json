@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.e1553b33.js",
+    "main.css": "/static/css/main.bd3fe642.css",
+    "main.js": "/static/js/main.9e767006.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/work3.png": "/static/media/work3.8767da27fff3ac68ec9c.png",
+    "static/media/work1.png": "/static/media/work1.c1680161c7514e8368b9.png",
+    "static/media/work2.png": "/static/media/work2.07abb45331cc8384e53a.png",
+    "static/media/Papri-Saha_Resume.pdf": "/static/media/Papri-Saha_Resume.74e0513c303a390058dc.pdf",
+    "static/media/about.jpg": "/static/media/about.347822f71db64227fcba.jpg",
+    "static/media/profile.jpg": "/static/media/profile.347822f71db64227fcba.jpg",
+    "static/media/dsa.png": "/static/media/dsa.9cd5a25e532c8a33f501.png",
+    "static/media/express.png": "/static/media/express.d61ef3d53f792ced8df2.png",
+    "static/media/nodeJs.png": "/static/media/nodeJs.1fac080eeec0a547c743.png",
+    "static/media/vscode.png": "/static/media/vscode.d793c746fbc937f66e3d.png",
+    "static/media/react.png": "/static/media/react.141f1c5edaf4d988e0c4.png",
+    "static/media/nextJs.png": "/static/media/nextJs.9f8054a6dc0837262000.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.e1553b33.js.map": "/static/js/main.e1553b33.js.map",
+    "main.bd3fe642.css.map": "/static/css/main.bd3fe642.css.map",
+    "main.9e767006.js.map": "/static/js/main.9e767006.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e1553b33.js"
+    "static/css/main.bd3fe642.css",
+    "static/js/main.9e767006.js"
   ]
 }
