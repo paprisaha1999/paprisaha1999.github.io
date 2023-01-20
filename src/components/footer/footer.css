@@ -1,0 +1,82 @@
+.footer {
+  background-color: rgb(255, 255, 155);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer__container {
+  padding: 2rem 0 6rem;
+}
+
+.footer__title,
+.footer__link {
+  color: var(--title-color);
+}
+
+.footer__title {
+  text-align: center;
+  margin-bottom: var(--mb-2);
+}
+
+.footer__link:hover {
+  color: var(--title-color-dark);
+  font-weight: 900;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
+  margin-bottom: var(--mb-2);
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
+}
+
+.footer__social-link {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1.25rem;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  display: inline-flex;
+}
+
+.footer__social-link:hover {
+  background-color: palevioletred;
+  color: white;
+  font-weight: 900;
+}
+
+.footer__copy {
+  display: block;
+  margin-top: 4.5rem;
+  color: var(--title-color);
+  text-align: center;
+  font-size: 14px;
+}
+
+/* ======================BREAK-POINTS====================== */
+
+/* Large Screen  */
+@media screen and (max-width: 992px) {
+  .footer__social-link {
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+}
+
+/* Medium Screen  */
+@media screen and (max-width: 768px) {
+}
+
+/* Medium 2 Screen  */
+@media screen and (max-width: 576px) {
+}
+
+/* Small Screen */
+@media screen and (max-width: 350px) {
+}
