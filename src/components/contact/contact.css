@@ -15,7 +15,7 @@
 
 .contact__info {
   display: grid;
-  row-gap: 1rem;
+  row-gap: 0.5rem;
   grid-template-columns: 300px;
 }
 
@@ -23,7 +23,7 @@
   /* background-color: var(--container-color); */
   background-color: rgb(255, 225, 230);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 0.75rem;
   text-align: center;
 }
@@ -34,7 +34,7 @@
 
 .contact__card-icon {
   color: rgb(217, 54, 81);
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: var(--mb-0-25);
 }
 
@@ -84,7 +84,7 @@
 .contact__form-div {
   position: relative;
   margin-bottom: var(--mb-2);
-  height: 4rem;
+  height: 6.5rem;
 }
 
 .contact__form-input {

@@ -52,6 +52,14 @@
   margin-bottom: var(--mb-2-5);
 }
 
+#resume-link-2 {
+  color: white;
+}
+
+.button__icon {
+  font-weight: bold;
+}
+
 /* ======================BREAK-POINTS====================== */
 
 /* Large Screen  */

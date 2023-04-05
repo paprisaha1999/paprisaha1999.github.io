@@ -6,7 +6,7 @@
 
 .work__card {
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.25rem;
+  padding: 1rem;
   border-radius: 1rem;
   background-color: rgb(230, 255, 193);
 }
@@ -26,7 +26,7 @@
 }
 
 .work__img:hover {
-  transform: scale3d(1.2, 1.2, 1);
+  transform: scale3d(1.3, 1.3, 1);
   /* border: 1px solid rgba(0, 0, 0, 0.1); */
   border: 1px solid rgb(181, 163, 255);
 }
@@ -59,11 +59,12 @@
 }
 
 .work__icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: rgb(92, 92, 92);
 }
 
 .work__icon:hover {
+  /* font-size: 2rem; */
   transform: scale3d(1.3, 1.3, 1);
   color: rgb(217, 54, 81);
 }
@@ -73,8 +74,8 @@
 /* Large Screen  */
 @media screen and (max-width: 992px) {
   .work__container {
-    margin-top: -50px;
-    padding: 2rem;
+    /* margin-top: -50px; */
+    /* padding: 2rem; */
     gap: 2rem;
   }
 }
@@ -82,10 +83,15 @@
 /* Medium Screen  */
 @media screen and (max-width: 768px) {
   .work__container {
-    margin-top: -70px;
+    /* margin-top: -70px; */
     grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
     justify-content: center;
+  }
+
+  .work__card {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
   }
 
   .work__title {

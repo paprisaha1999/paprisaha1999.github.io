@@ -4,7 +4,7 @@ import WorkItems from "./WorkItems";
 
 const Works = () => {
   return (
-    <div className="work__container container grid">
+    <div className="work__container container grid project-card">
       {projectsData.map((item) => {
         return <WorkItems item={item} key={item.id} />;
       })}

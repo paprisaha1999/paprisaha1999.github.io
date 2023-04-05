@@ -3,6 +3,7 @@ import Social from "./Social";
 import Data from "./Data";
 import "./home.css";
 import ScrollDown from "./ScrollDown";
+import profile_photo from "../../assets/profile.jpg";
 
 const Home = () => {
   return (
@@ -11,7 +12,18 @@ const Home = () => {
         <div className="home__content grid">
           <Social />
 
-          <div className="home__img"></div>
+          {/* style=
+          {{
+            animation: "profile__animate 5s ease-in-out infinite 1s",
+          }} */}
+
+          {/* <div>
+            <img className="home-img" src={profile_photo} alt="xyz"></img>
+          </div> */}
+
+          <div id="img">
+            <img className="home-img" src={profile_photo} alt="xyz"></img>
+          </div>
 
           <Data />
         </div>

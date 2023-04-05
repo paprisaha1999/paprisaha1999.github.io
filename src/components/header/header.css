@@ -53,6 +53,10 @@
   display: none;
 }
 
+/* .button {
+  padding: -10px;
+} */
+
 /* Active link  */
 .active-link,
 .nav__link:hover {
@@ -65,6 +69,19 @@
 .scroll-header {
   /* box-shadow: 0 -1px 10px rgb(127, 117, 160); */
   box-shadow: 0 -1px 10px pink;
+}
+
+#resume-button-1 {
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+#resume-link-1 {
+  color: white;
+}
+
+.button__icon {
 }
 
 /* ======================BREAK-POINTS====================== */
@@ -132,6 +149,18 @@
   .nav__toggle {
     display: block;
   }
+
+  .resume {
+    width: fit-content;
+    margin: auto;
+    padding: 3px;
+  }
+
+  #resume-button-1 {
+    width: fit-content;
+    padding: 5px;
+    margin: auto;
+  }
 }
 
 /* Small Screen */
@@ -142,5 +171,11 @@
 
   .nav__list {
     column-gap: 0;
+  }
+
+  .resume {
+    width: fit-content;
+    margin: auto;
+    padding: 2px;
   }
 }

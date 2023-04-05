@@ -10,74 +10,74 @@ import testing from "../../assets/testing.png";
 
 const Backend = () => {
   return (
-    <div className="skills__content">
+    <div className="skills__content skills-card">
       <h3 className="skills__title">Backend Development & Other Used Tools</h3>
 
       <div className="skills__box">
         <div className="skills__group">
-          <div className="skills__data">
-            <img className="icons" src={nodeJs} alt="xyz" />
+          <div className="skills__data skills-card">
+            <img className="icons skills-card-img" src={nodeJs} alt="xyz" />
 
             <div>
-              <h3 className="skills__name">NodeJS</h3>
+              <h3 className="skills__name skills-card-name">NodeJS</h3>
             </div>
           </div>
 
-          <div className="skills__data">
-            <img className="icons" src={express} alt="xyz" />
+          <div className="skills__data skills-card">
+            <img className="icons skills-card-img" src={express} alt="xyz" />
 
             <div>
-              <h3 className="skills__name">ExpressJS</h3>
+              <h3 className="skills__name skills-card-name">ExpressJS</h3>
             </div>
           </div>
 
-          <div className="skills__data">
-            <img className="icons" src={dsa} alt="xyz" />
+          <div className="skills__data skills-card">
+            <img className="icons skills-card-img" src={dsa} alt="xyz" />
 
             <div>
-              <h3 className="skills__name">DSA</h3>
+              <h3 className="skills__name skills-card-name">DSA</h3>
             </div>
           </div>
 
-          <div className="skills__data">
-            <img className="icons" src={vscode} alt="xyz" />
+          <div className="skills__data skills-card">
+            <img className="icons skills-card-img" src={vscode} alt="xyz" />
 
             <div>
-              <h3 className="skills__name">VS Code</h3>
+              <h3 className="skills__name skills-card-name">VS Code</h3>
             </div>
           </div>
         </div>
 
         <div className="skills__group">
-          <div className="skills__data">
-            <img className="icons" src={mongodb} alt="xyz" />
+          <div className="skills__data skills-card">
+            <img className="icons skills-card-img " src={mongodb} alt="xyz" />
 
             <div>
-              <h3 className="skills__name">MongoDB</h3>
+              <h3 className="skills__name skills-card-name">MongoDB</h3>
             </div>
           </div>
 
-          <div className="skills__data">
-            <img className="icons" src={cypress} alt="xyz" />
+          <div className="skills__data skills-card">
+            <img className="icons skills-card-img" src={cypress} alt="xyz" />
 
             <div>
-              <h3 className="skills__name">Cypress</h3>
+              <h3 className="skills__name skills-card-name">Cypress</h3>
             </div>
           </div>
 
-          <div className="skills__data">
-            <img className="icons" src={github} alt="xyz" />
+          <div className="skills__data skills-card">
+            <img className="icons skills-card-img" src={github} alt="xyz" />
 
             <div>
-              <h3 className="skills__name">Github</h3>
+              <h3 className="skills__name skills-card-name">Github</h3>
             </div>
           </div>
 
-          <div className="skills__data">
-            <img className="icons" src={testing} alt="xyz" />
+          <div className="skills__data skills-card">
+            <img className="icons skills-card-img" src={testing} alt="xyz" />
 
             <div>
-              <h3 className="skills__name">Testing</h3>
+              <h3 className="skills__name skills-card-name">Testing</h3>
             </div>
           </div>
         </div>

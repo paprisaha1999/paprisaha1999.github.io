@@ -80,7 +80,16 @@
   .skills__container {
     margin-top: -40px;
     grid-template-columns: 1fr;
-    padding: 30px;
+    /* padding: 30px; */
+  }
+
+  .icons {
+    width: 35px;
+    height: 35px;
+  }
+
+  .skills__name {
+    font-size: 15px;
   }
 
   .skills__content {
