@@ -5,7 +5,7 @@ import Info from "./Info";
 
 function resume() {
   window.open(
-    "https://drive.google.com/file/d/1e2KlbpewJwPOhLqgM_8upndjnlKCFeWn/view?usp=sharing",
+    "https://drive.google.com/file/d/1TXG8uT_CprAURvMjDaG2IidSq91kIrWE/view?usp=sharing",
     "_blank"
   );
 }
@@ -42,7 +42,7 @@ const About = () => {
             <a
               id="resume-link-2"
               href={CV}
-              download="Papri-Saha_Resume"
+              download="Papri_Saha_Resume"
               target="_blank"
               rel="noreferrer"
             >

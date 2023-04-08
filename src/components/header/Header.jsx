@@ -4,7 +4,7 @@ import CV from "../../assets/Papri-Saha_Resume.pdf";
 
 function resume() {
   window.open(
-    "https://drive.google.com/file/d/1e2KlbpewJwPOhLqgM_8upndjnlKCFeWn/view?usp=sharing",
+    "https://drive.google.com/file/d/1TXG8uT_CprAURvMjDaG2IidSq91kIrWE/view?usp=sharing",
     "_blank"
   );
 }
@@ -126,7 +126,7 @@ const Header = () => {
                 id="resume-link-1"
                 className="nav-link resume"
                 href={CV}
-                download="Papri-Saha_Resume"
+                download="Papri_Saha_Resume"
                 target="_blank"
                 rel="noreferrer"
               >
