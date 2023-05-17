@@ -171,3 +171,16 @@
     height: 130px;
   }
 }
+
+@media screen and (max-width: 280px) {
+  /* .main__calender-div {
+    width: 90%;
+    margin: auto;
+  } */
+  .calender__div {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+  }
+}

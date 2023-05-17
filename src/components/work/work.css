@@ -139,3 +139,46 @@
     color: rgb(217, 54, 81);
   }
 }
+
+/* Extra Small Screen */
+@media screen and (max-width: 280px) {
+  .work__container {
+    margin-top: -50px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    padding: 0.8rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .work__card {
+    padding: 0.8rem;
+  }
+
+  .work__title {
+    font-size: 1.18rem;
+  }
+
+  .work__description {
+    font-size: var(--tiny-font-size);
+    margin-bottom: var(--mb-0-5);
+  }
+
+  .work__techStack {
+    font-size: var(--tiny-font-size);
+    margin-bottom: var(--mb-0-5);
+  }
+
+  .work__img {
+    margin-bottom: var(--mb-0-5);
+  }
+
+  .work__icon {
+    font-size: 1.3rem;
+  }
+
+  .work__icon:hover {
+    transform: scale3d(1.2, 1.2, 1);
+    color: rgb(217, 54, 81);
+  }
+}
